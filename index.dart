@@ -1,8 +1,10 @@
+
+import"dart:io";
 void main(){
-  Map <String,int> marks={"English":10, "Urdu":20, "Maths":30};
-  for (var a in marks.entries){
-print(a.key);
-print(a.value);
-  }
+  String user_input = "arxi";
+  stdin.readLineSync()!;
+while (user_input != "arxi"){
+  print("enter your name");
+
 }
-  
+}
