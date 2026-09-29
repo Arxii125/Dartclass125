@@ -11,16 +11,20 @@
 //Use switch case or if else
 void main(){
   int number1 = 10;
-  int number2 = 10;
-  int calculator(int number1, int number2){
-switch (calculator) {
-  case 1:
+  int number2 = 20;
+  int choice=20;
+  int calculator(int number1, int number2, int choice){
+switch (choice) {
+  case  "add":
     return number1 + number2;
     
-  case 2:
+  case "subtract":
     return number1 - number2;
-  default:
-    return 0;
+  
 }
+default;{
+
 }
+  return 0;
+  }
 }
